@@ -1,0 +1,20 @@
+body {
+    background-color: cadetblue;
+    font-family: monospace;
+}
+
+pre {
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: rgb(229, 229, 229);
+    padding: 5px;
+    width: min-content;
+}
+
+.base-container {
+    background-color: cornsilk;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML справочник</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="base-container">
+        <h1>Веб справочник</h1>
+        <h2>HTML</h2>
+        <h3>Регулярные выражения</h3>
+        TODO
+        <h2>JavaScript</h2>
+        <h3>Это база</h3>
+        Так можно писать скрипт прямо в html файле, в body или head
+        <pre>
+&lt;script type="text/javascript"&gt;
+    ***
+&lt;/script&gt;
+        </pre>
+        вывод текста
+        <pre>
+document.write("text")
+        </pre>
+        функция с аргументом
+        <pre>
+function foo(arg) {
+    ***;
+}
+        </pre>
+        всплывающее предупреждение с текстом
+        <pre>
+alert("text")
+        </pre>
+        изменение значения внутри тега
+        <pre>
+document.getElementById("id").innerHTML = value;
+        </pre>
+        <h3>Циклы</h3>
+        с итератором
+        <pre>
+(var i = 0; i &lt; 5; i++)
+{
+    ***;
+}
+        </pre>
+        с условием
+        <pre>
+while(true)
+{
+    ***;
+}
+        </pre>
+        с постусловием
+        <pre>
+do {
+    ***;
+} while(true)
+        </pre>
+        <h3>Таймеры</h3>
+        вызов функции после заданного времени (миллисекунды)
+        <pre>
+setTimeout("func()", 1000);
+        </pre>
+        непрерывный вызов по таймеру
+        <pre>
+var timer = setInterval("func()", 1000);
+        </pre>
+    </div>
+</body>
+</html>
